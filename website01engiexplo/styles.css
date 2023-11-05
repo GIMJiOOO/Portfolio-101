@@ -1,0 +1,60 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/1058022012506886247/1169914939092254741/Untitled_1920_x_1080_px.png?ex=65572331&is=6544ae31&hm=0e9168e62bb36f8a649a3dafe6f98b1dce16bd4cd95aaaae566c9fca25327bdd&');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-size: large;
+}
+
+.square {
+    width: 75%; /* You can adjust the width as needed */
+    padding-top: 40%;
+    background-color: #000000;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+    color: #08FF00;
+    padding: 20px; /* Add some padding to separate the text from the top */
+}
+.im {
+    position: absolute;
+    display: inline;
+    max-width: 70%;
+    height: auto;
+	top: 150px;
+	right: 100px;
+}
+.button-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.button {
+  display: block;
+  background-color: #818380; /* Button background color */
+  color: #08ff00; /* Text color */
+  padding: 20px 60px; /* Padding for the button */
+  margin-bottom: 30px; /* Spacing between buttons */
+  text-decoration: none; /* Remove underlines from links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+  text-align: center;
+
+}
+
+.button:hover {
+    background-color: #FFFFFF;
+}
